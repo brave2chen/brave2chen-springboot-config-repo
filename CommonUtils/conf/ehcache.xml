@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 使用远程集群缓存
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="false" monitoring="autodetect"
+         dynamicConfig="true" >
+   
+    <terracottaConfig url="172.168.27.133:9510"/>
+   
+    <defaultCache
+           maxElementsInMemory="0"
+           eternal="true"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0">      
+      <terracotta/>
+    </defaultCache>
+
+    
+    <cache name="ehcache0"
+           maxElementsInMemory="10000"
+           eternal="true"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0"
+           memoryStoreEvictionPolicy="LFU"
+           transactionalMode="off">  
+    	<terracotta/>
+    </cache>
+    
+    <cache name="sessionCache"
+           maxElementsInMemory="200"
+           eternal="true"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0"
+           memoryStoreEvictionPolicy="LFU"
+           transactionalMode="off">  
+    	<terracotta/>	
+    </cache>
+</ehcache> -->
+
+<!-- 使用本地缓存 -->
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="false" monitoring="autodetect"
+         dynamicConfig="true" >
+    <defaultCache
+           maxElementsInMemory="0"
+           eternal="true"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0">      
+    </defaultCache>
+
+    
+    <cache name="ehcache0"
+           maxElementsInMemory="10000"
+           eternal="true"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0"
+           memoryStoreEvictionPolicy="LFU"
+           transactionalMode="off">  
+    </cache>
+    
+    <cache name="sessionCache"
+           maxElementsInMemory="200"
+           eternal="true"
+           timeToIdleSeconds="0"
+           timeToLiveSeconds="0"
+           memoryStoreEvictionPolicy="LFU"
+           transactionalMode="off">  
+    </cache>
+</ehcache>
+

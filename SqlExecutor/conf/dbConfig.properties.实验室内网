@@ -1,0 +1,8 @@
+TRANS_APP_A_S3=jdbc:oracle:thin:trans_app_a_s3/trans_app_a_s3##1999@192.168.1.85:1521:oracatt
+TRANS_APP_JT_S3=jdbc:oracle:thin:trans_app_jt_s3/trans_app_jt_s3##1999@192.168.1.85:1521:oracatt
+TRANS_APP_Z_S3=jdbc:oracle:thin:trans_app_z_s3/trans_app_z_s3##1999@192.168.1.85:1521:oracatt
+TRANS_DAPTER_A_S3=jdbc:oracle:thin:trans_dapter_a_s3/trans_dapter_a_s3##1999@192.168.1.85:1521:oracatt
+TRANS_DAPTER_JT_S3=jdbc:oracle:thin:trans_dapter_jt_s3/trans_dapter_jt_s3##1999@192.168.1.85:1521:oracatt
+TRANS_DAPTER_Z_S3=jdbc:oracle:thin:trans_dapter_z_s3/trans_dapter_z_s3##1999@192.168.1.85:1521:oracatt
+TRANS_CROSS_S3=jdbc:oracle:thin:trans_cross_s3/trans_cross_s3##1999@192.168.1.85:1521:oracatt
+

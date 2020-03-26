@@ -1,0 +1,8 @@
+TRANS_APP_A=jdbc:oracle:thin:trans_app_a/trans_app_a@172.168.63.102:1521:newtrans
+TRANS_APP_JT=jdbc:oracle:thin:trans_app_jt/trans_app_jt@172.168.63.102:1521:newtrans
+TRANS_APP_Z=jdbc:oracle:thin:trans_app_z/trans_app_z@172.168.63.102:1521:newtrans
+TRANS_DAPTER_A_S3=jdbc:oracle:thin:trans_dapter_a_s3/trans_dapter_a_s3##1999@172.168.63.102:1521:newtrans
+TRANS_DAPTER_JT_S3=jdbc:oracle:thin:trans_dapter_jt_s3/trans_dapter_jt_s3##1999@172.168.63.102:1521:newtrans
+TRANS_DAPTER_Z_S3=jdbc:oracle:thin:trans_dapter_z_s3/trans_dapter_z_s3##1999@172.168.63.102:1521:newtrans
+TRANS_CROSS_S3=jdbc:oracle:thin:trans_cross_s3/trans_cross_s3##1999@172.168.63.102:1521:newtrans
+
